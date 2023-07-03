@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dependabot_python_test"
+description = "Small python package to test dependabot"
+version = "0.0.0"
+dependencies = [
+    "cowsay",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+]
+
+[tool.setuptools]
+packages = ["dependabot_python_test"]
