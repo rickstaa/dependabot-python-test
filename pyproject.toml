@@ -7,12 +7,12 @@ name = "dependabot_python_test"
 description = "Small python package to test dependabot"
 version = "0.0.0"
 dependencies = [
-    "cowsay==4.0",
+    "cowsay>=4.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "black==22.1.0",
+    "black>=22.1.0",
 ]
 
 [tool.setuptools]
